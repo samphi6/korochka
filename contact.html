@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Contact Korochka</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex,nofollow" />
+    <meta charset="UTF-8">
+    <script src="https://use.fontawesome.com/6a71565c22.js"></script>
+    <link rel="icon" type="image/jpg" href="images/korochka_logo.jpg">
+    <link rel="stylesheet" href="styles/scss/app.css" />
+    <link rel="stylesheet" href="css/nav.css" />
+    <link rel="stylesheet" href="css/form.css" />
+    <link rel="stylesheet" href="css/portal.css" />
+</head>
+
+<div class="color-overlay"></div>
+
+<body>
+
+    <main>
+
+        <button class="cash-out"><a href="#">CASH OUT</a></button>
+
+        <nav>
+            <img class="logo" src="images/korochka_logo.jpg" alt="Welcome to Korochka Tavern">
+            <ul class="topnav">
+                <li><a href="index.html"> HOME </a></li>
+                <li><a href="menu.html"> MENU </a>
+                    <ul class="fd_dropdown">
+                        <li><a href="menu.html#food"> FOOD </a></li>
+                        <li><a href="menu.html#drinks">DRINKS</a></li>
+                    </ul>
+                </li>
+                <li><a href="events.html"> EVENTS </a></li>
+                <li><a href="about.html"> ABOUT </a></li>
+                <li><a href="contact.html"> CONTACT </a></li>
+            </ul>
+
+            <div class="s_media">
+                <a href="https://www.facebook.com/korochka" target="_blank"><img class="fb-logo"
+                        src="images/f_logo_RGB-White_1024.png" alt="facebook-icon"></a>
+
+                <a href="https://www.instagram.com/korochka.tavern/" target="_blank"><img class="insta-logo"
+                        src="images/insta_icon1.png" alt="instagram-icon"></a>
+            </div>
+        </nav>
+
+        <form action="https://formsubmit.co/samueltphillipsbok@gmail.com" method="POST">
+            <h1>CONTACT KOROCHKA</h1>
+
+            <input type="text" name="fname" id="fname" placeholder="First Name" required>
+            <input type="text" name="lname" id="lname" placeholder="Last Name" required>
+            <input type="email" name="email" id="e-mail" placeholder="E-mail" required>
+            <textarea name="comments" id="comments" placeholder="Comments" required></textarea>
+            <button class="send-button" type="submit">SEND</button>
+            <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
+        </form>
+
+        <div class="local">
+
+            <iframe class="map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5374.394877274146!2d-122.33414321835097!3d47.661160727153415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549011635ee5a579%3A0xeccd4793833111a9!2sKorochka%20Tavern!5e0!3m2!1sen!2sus!4v1622128641927!5m2!1sen!2sus"
+                style="border:0;" allowfullscreen="" loading="lazy">
+            </iframe>
+
+            <p>2317 N 45th St. Seattle, WA 98103</p>
+            <p>206.930.1932</p>
+
+        </div>
+
+        </div>
+
+        <div class="main-hours">
+            <h3>Tavern Hours</h3>
+            <ul>
+                <li>MON - CLOSED</li>
+                <li>TUE - SAT 4PM - 10PM</li>
+            </ul>
+        </div>
+
+        <footer>
+
+            <!-- <ul class="back_to_top">
+                <small><a href="#top">Back to Top</a></small>
+            </ul> -->
+            <p><small>&copy; 2021 -
+                    <?=date('Y')?>by<a href="contact.php" target="_blank">
+                        Samuel at Coded Chrystalis</a>, All Rights Reserved ~ <a href="http://validator.w3
+        .org/check/referer" target="_blank">Valid HTML</a> ~ <a href="http://jigsaw.w3.org
+        /css-validator/check?uri=referer" target="_blank">Valid CSS</a>
+                </small></p>
+        </footer>
+    </main>
+</body>
+
+</html>

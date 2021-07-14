@@ -1,0 +1,15 @@
+{
+  "name": "korochka",
+  "version": "1.0.0",
+  "description": "Korochka Tavern Site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx http-server"
+  },
+  "author": "Samuel T Phillips",
+  "license": "MIT",
+  "dependencies": {
+    "http-server": "^0.12.3"
+  }
+}

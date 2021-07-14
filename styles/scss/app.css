@@ -1,0 +1,553 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.color-overlay {
+  width: 100%;
+  height: 100%;
+  background: black;
+  opacity: .4;
+  position: absolute;
+}
+
+main {
+  position: relative;
+}
+
+body {
+  background-image: url(../../images/korochka_bar.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: -ms-grid;
+  display: grid;
+}
+
+.fa, .fas {
+  display: none;
+}
+
+nav {
+  position: relative;
+  width: 160px;
+  margin: 20px;
+  float: left;
+}
+
+nav ul li ul {
+  display: none;
+  position: absolute;
+  background-color: #DB9B06;
+  left: 130px;
+  top: 217px;
+  width: 160px;
+  z-index: 1;
+  border-radius: 5px;
+}
+
+nav ul li:hover ul {
+  display: block;
+}
+
+nav .logo {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  -webkit-box-shadow: -3px 2px 10px 2px #db8b44;
+          box-shadow: -3px 2px 10px 2px #db8b44;
+}
+
+nav li {
+  list-style-type: none;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+nav li:hover {
+  background-color: #DB9B06;
+  -webkit-transition: .25s;
+  transition: .25s;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  display: block;
+}
+
+nav :hover {
+  color: black;
+}
+
+.fd_dropdown {
+  background-color: black;
+}
+
+.fd_dropdown li {
+  margin-bottom: 0;
+  border-radius: 0 5px 5px 0;
+}
+
+.s_media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.s_media .fab {
+  font-size: 30px;
+}
+
+.s_media .fab:hover {
+  color: #DB9B06;
+}
+
+section {
+  color: white;
+  width: 775px;
+  margin: 220px 0 0 0;
+}
+
+section h1 {
+  font-size: 30px;
+  padding: 0 0 20px 0;
+}
+
+section p {
+  font-size: 18px;
+}
+
+.menu-title {
+  padding-left: 688px;
+  color: white;
+}
+
+.full-menu {
+  width: 1063px;
+  height: 465px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
+  margin: 20px 0 auto;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.full-menu h1 {
+  text-align: center;
+  display: inline;
+}
+
+.full-menu h3 {
+  margin: 0 0 5px 0;
+  color: black;
+}
+
+.full-menu .menu-card {
+  width: 45%;
+  background-color: rgba(255, 255, 255, 0.75);
+  padding: 5px;
+  border-radius: 5px;
+  margin: 10px 0 0 0;
+}
+
+.full-menu img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.full-menu p {
+  color: black;
+  font-size: 15px;
+}
+
+.full-menu .item-img {
+  width: 110px;
+  margin-right: 10px;
+  border-radius: 5px;
+  float: left;
+}
+
+.full-menu #price {
+  margin-top: 15px;
+  float: left;
+}
+
+.add-cart {
+  background-color: #db8b44;
+  width: 100px;
+  margin: 0 10px 5px 0;
+  border-radius: 10px;
+  float: right;
+}
+
+.add-cart a {
+  text-decoration: none;
+  display: block;
+  padding: 5px;
+  border-radius: 5px;
+  color: black;
+}
+
+.add-cart :hover {
+  color: white;
+  background-color: black;
+}
+
+.about-card {
+  width: 50%;
+  margin: auto;
+  color: white;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.about-card img {
+  max-width: 80%;
+  display: block;
+  margin: 80px auto 10px;
+  border-radius: 10px;
+}
+
+.about-card p {
+  text-align: center;
+}
+
+.events {
+  width: 55%;
+  height: 80%;
+  float: left;
+  margin: 20px 20px 0 20px;
+}
+
+.events h1 {
+  color: white;
+  padding: 0 0 10px 0;
+}
+
+.events iframe {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.local {
+  float: right;
+  width: 375px;
+  height: 250px;
+  margin: 130px 20px 0 0;
+  clear: right;
+}
+
+.local p {
+  color: white;
+  font-size: 18px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.local .map {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.local-map {
+  float: right;
+  width: 296px;
+  height: 250px;
+  margin: 130px 20px 0 0;
+  clear: right;
+}
+
+.local-map .map {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.local-map p {
+  color: white;
+  font-size: 18px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 5px;
+  width: 450px;
+  float: left;
+  margin: 145px 0 0 80px;
+}
+
+form h1 {
+  color: white;
+}
+
+form ::-webkit-input-placeholder {
+  color: black;
+}
+
+form :-ms-input-placeholder {
+  color: black;
+}
+
+form ::-ms-input-placeholder {
+  color: black;
+}
+
+form ::placeholder {
+  color: black;
+}
+
+form textarea#comments {
+  height: 50px;
+  border-radius: 5px;
+}
+
+form input#lname, form input#fname,
+form input#e-mail, form textarea#comments {
+  margin: 0 0 20px 0;
+  padding: 10px 0 0 5px;
+  background-color: slategray;
+  border-radius: 5px;
+}
+
+form .send-button {
+  background-color: #db8b44;
+  width: 70px;
+  padding: 5px;
+  border-radius: 10px;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+form a {
+  text-decoration: none;
+  display: block;
+  padding: 5px;
+  border-radius: 5px;
+  color: black;
+}
+
+form :hover {
+  color: white;
+  background-color: black;
+}
+
+.cash-out {
+  background-color: #db8b44;
+  width: 100px;
+  margin: 20px 20px 10px 0;
+  border-radius: 10px;
+  float: right;
+}
+
+.cash-out a {
+  padding: 5px;
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+
+.cash-out :hover {
+  background-color: black;
+  color: white;
+}
+
+.main-hours {
+  clear: both;
+  color: white;
+  margin: 0 0 0 20px;
+  float: left;
+}
+
+.main-hours h3 {
+  margin-bottom: 10px;
+}
+
+.main-hours li {
+  list-style-type: none;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  clear: both;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+@media (max-width: 412px) {
+  body {
+    background-image: none;
+    background-color: black;
+    display: block;
+  }
+  .color-overlay {
+    width: 0%;
+    height: 0%;
+    background: none;
+    opacity: 0;
+    position: none;
+  }
+  .hamburger {
+    background-color: transparent;
+    border: none;
+  }
+  .fa, .fas {
+    display: block;
+    font-weight: 900;
+    color: white;
+    font-size: 35px;
+    margin: 18px;
+  }
+  .topnav {
+    display: none;
+  }
+  .topnav .show {
+    display: block;
+  }
+  nav {
+    background-color: #db8b44;
+    position: none;
+    width: 100%;
+    margin: 0;
+    float: none;
+    border-radius: 0 0 10px 10px;
+  }
+  nav a {
+    color: black;
+  }
+  nav .logo {
+    display: none;
+  }
+  section {
+    color: white;
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    clear: left;
+  }
+  section h1 {
+    font-size: 35px;
+    padding: 0px 0 10px 0;
+    margin: 25px 0 20px 0;
+  }
+  section p {
+    line-height: 30px;
+    font-size: 25px;
+  }
+  .main-hours {
+    margin: 10px;
+  }
+  .menu-title {
+    padding-left: 163px;
+    margin: 20px 0 20px 0;
+  }
+  .full-menu {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+  .full-menu .menu-card {
+    width: 100%;
+  }
+  .full-menu .item-img {
+    width: 95%;
+    margin: 5px auto;
+    float: none;
+  }
+  .full-menu h3 {
+    font-size: 25px;
+    margin: 0 0 5px 10px;
+  }
+  .full-menu p {
+    line-height: 22px;
+    font-size: 22px;
+    margin: 0 0 0 10px;
+  }
+  .full-menu .add-cart {
+    width: 100%;
+    margin: 10px 0 10px 0;
+    float: none;
+  }
+  .full-menu .add-cart a {
+    padding: 15px;
+    font-size: 20px;
+  }
+  .events {
+    width: 95%;
+    height: 400px;
+    margin: 0 auto;
+    float: none;
+  }
+  .events h1 {
+    margin: 20px 0 0 0;
+  }
+  .local-map {
+    width: 95%;
+    margin: 66px 10px 50px 10px;
+  }
+  .about-card {
+    width: 100%;
+  }
+  .about-card img {
+    max-width: 95%;
+    margin: 20px auto 10px;
+  }
+  .about-card p {
+    font-size: 22px;
+    padding: 10px;
+    text-align: left;
+  }
+  form {
+    width: 100%;
+    margin: 20px 0 0 0;
+    padding: 10px;
+  }
+  form .send-button {
+    width: 35%;
+    padding: 15px;
+  }
+  .local {
+    width: 95%;
+    margin: 20px 10px 50px 0;
+  }
+  form input#lname, form input#fname,
+  form input#e-mail {
+    padding: 30px 0 0 10px;
+    font-size: 18px;
+  }
+  form textarea#comments {
+    padding: 0 0 110px 10px;
+    font-size: 18px;
+  }
+}
+/*# sourceMappingURL=app.css.map */
